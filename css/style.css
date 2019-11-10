@@ -68,8 +68,8 @@ code, .card .line-numbers {
  .card-front:after, .card-back:after {
 	 content: '+';
 	 top: 0;
-	 right: 5px;
-	 font-size: 24px;
+	 right: 0.3em;
+	 font-size: 0.9em;
 	 transform: rotate(45deg);
 	 z-index: 2;
 }
@@ -107,7 +107,7 @@ code, .card .line-numbers {
 	 margin: 0;
 	 padding: 0 10px;
 	 background-color: rgba(255, 255, 255, 0.03);
-	 font-size: 13px;
+	 font-size: 0.9em;
 }
  .card .line-numbers > div {
 	 padding: 2.5px 0;
@@ -138,23 +138,4 @@ code, .card .line-numbers {
 }
  .card .boolean {
 	 color: #A17A30;
-}
- 
-h1, h2, h3, h4, h5 {
-    text-transform: uppercase;
-	text-decoration: none;
-	font-weight: 300;
-    line-height: 0.85;
-    margin: 0;
-    padding: 0;
-}
-
-h1 {
-	font-size: 4.06em;
-}
-
-h2 {
-	font-size: 2.3em;
-    margin: 0;
-    padding: 0;
 }
