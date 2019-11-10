@@ -69,7 +69,7 @@ code, .card .line-numbers {
 	 content: '+';
 	 top: 0;
 	 right: 0.3em;
-	 font-size: 0.9em;
+	 font-size: 0.8em;
 	 transform: rotate(45deg);
 	 z-index: 2;
 }
